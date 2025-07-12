@@ -1,0 +1,11 @@
+/data/
+__pycache__/
+*.pyc
+.env
+*.ipynb_checkpoints
+.vscode/
+*.h5
+*.ckpt
+.DS_Store
+*.log
+*.sqlite
