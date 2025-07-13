@@ -34,8 +34,8 @@ def build_model(vocab_size, embedding_dim=128, max_len=50):
     
     model = Model(inputs, outputs)
     model.compile(
-        optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
-        loss='binary_crossentropy',
-        metrics=['accuracy', tf.keras.metrics.Precision(), tf.keras.metrics.Recall()]
+    optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
+    loss='binary_crossentropy',
+    metrics=['accuracy']  # Removed precision and recall
     )
     return model
