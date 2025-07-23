@@ -99,4 +99,4 @@ This project was developed as a personal learning initiative to better understan
 ---
 
 🧠 Credits
-Built with ❤️ by Sirine Hjaij — Based on "Sujet 13: Mécanisme d'attention appliqué à la classification de texte".
+Built with ❤️ by Sirine Hjaij.
